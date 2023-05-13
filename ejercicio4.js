@@ -1,0 +1,10 @@
+const nombre = "Ricardo Leandro";
+const apellido = "Avila";
+const estudiante = `${nombre} ${apellido}`; 
+const estudianteMayus = estudiante.toUpperCase();
+const estudianteMinus = estudiante.toLowerCase();
+const numeroDeLetrasNombre = nombre.length;
+const primeraLetraNombre = nombre[0];
+const ultimaLetraApellido = apellido[apellido.length - 1];
+const variableSinEspacios = estudiante.replace(/ /g, "");
+const nombreContenido = estudiante.includes(nombre);
